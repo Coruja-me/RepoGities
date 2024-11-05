@@ -12,9 +12,21 @@ export const ItemContainer = styled.section`
         color: #F0F0F075;
         margin-bottom: 16px;
     }
-    a.remove{
-        color: #F005;
+    a{
+        color: #00F;
         margin-top: 16px;
+    }
+    a: hover{
+        color: #00F5;
+        cursor: pointer;
+    }
+    a.remove{
+        color: #F00;
+        margin-top: 16px;
+    }
+    a.remove: hover{
+        color: #F005;
+        cursor: pointer;
     }
     hr{
         color: #F0F0F050;

@@ -1,8 +1,8 @@
 import React from "react";
 import {ButtonContainer} from "./styles.js"
-const Button = () => {
+const Button = ({onClick}) => {
     return (
-        <ButtonContainer>Buscar</ButtonContainer>
+        <ButtonContainer onClick={onClick}>BUSCAR</ButtonContainer>
     )
 }
 export default Button
